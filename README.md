@@ -36,7 +36,7 @@ Add the [Shortery - Update Finesse State](https://www.icloud.com/shortcuts/bbd28
 
 ### Anybar Status Icon (Optional)
 
-If Anybar is installed, the [Set Anybar Color From Finesse State](https://www.icloud.com/shortcuts/ec0d0626ebef428b935ebc03b9c6120d) Shortcut can also be added to automatically the statusbar icon's color to match the last known state change:
+If [Anybar](https://github.com/tonsky/AnyBar) is installed, the [Set Anybar Color From Finesse State](https://www.icloud.com/shortcuts/ec0d0626ebef428b935ebc03b9c6120d) Shortcut can also be added to automatically the statusbar icon's color to match the last known state change:
 
 - `green` for `READY`
 - `red` for `NOT_READY`
