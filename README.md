@@ -4,7 +4,7 @@
 
 ## Initial Config
 
-Unzip this repo's contents to `~/finesse-helper/`.
+[Download](https://github.com/iznaut/finesse-helper/archive/refs/heads/main.zip) and unzip this repo's contents to `~/finesse-helper/`.
 
 Run `~/finesse-helper/finesse.sh` via Terminal. You will be prompted for the following:
 
