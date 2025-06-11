@@ -45,7 +45,7 @@ ext=$(kvget ext)
 domain=$(kvget domain)
 
 if [ -z "${username}" ]; then
-   read -r -p "Please enter your Finesse domain (with port, if necessary): " domain
+   read -r -p "Please enter your Finesse server URL (with port, if necessary): " domain
    read -r -p "Please enter your Finesse username: " username
    read -r -p "Please enter your Finesse extension: " ext
    echo "Prompting for Finesse password (this will be stored locally with encryption)"
@@ -112,7 +112,7 @@ if [[ $LAST_GET_RESPONSE != *"activeDeviceId"* ]]; then
    send_put_request "/User/${username}" "${loginXml}"
 
    if [ "$LAST_HTTP_CODE" == '202' ]; then
-      echo "Logging in..."
+      # echo "Logging in..."
       sleep 1 # Wait a second before changing state
    else
       echo "Login failed!"
